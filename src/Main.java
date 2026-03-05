@@ -8,7 +8,7 @@ public class Main {
         try{
             FileReader copyFileReader = new FileReader(copyFile);
             System.out.println(copyFileReader.readAllAsString());
-            System.out.println("Dali zelite kopirati datoteku copyfile.txt?");
+            System.out.println("Dali zelite kopirati datoteku copyfile.txt? da/ne");
             Scanner input = new Scanner(System.in);
             String odg = input.nextLine();
             if(odg.contentEquals("da")){
