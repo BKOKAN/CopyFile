@@ -27,7 +27,7 @@ public class Main {
             }
 
         } catch (FileNotFoundException e) {
-            throw new RuntimeException("File not found!");
+            throw new RuntimeException("Greska: File not found!");
         } catch (IOException e) {
             throw new RuntimeException("Greska: No data!");
         }
